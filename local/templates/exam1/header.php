@@ -14,6 +14,9 @@ IncludeTemplateLangFile(__FILE__);
 <script src="<?=SITE_TEMPLATE_PATH?>/js/jquery.min.js"></script>
 <script src="<?=SITE_TEMPLATE_PATH?>/js/owl.carousel.min.js"></script>
 <script src="<?=SITE_TEMPLATE_PATH?>/js/scripts.js"></script>
+<script src="<?=SITE_TEMPLATE_PATH?>/js/js/jquery-1.8.2.min.js"></script>
+<script src="<?=SITE_TEMPLATE_PATH?>/js/slides.min.jquery.js"></script>
+
 	<title><?$APPLICATION->ShowTitle()?></title>
 <body>
     <!-- wrap -->
@@ -27,8 +30,8 @@ IncludeTemplateLangFile(__FILE__);
                 </div>
                 <div class="main-phone-block">
                     <a href="tel:84952128506" class="phone"><?$APPLICATION->IncludeComponent(
-	"bitrix:main.include", 
-	".default", 
+	"bitrix:main.include",
+	".default",
 	array(
 		"AREA_FILE_SHOW" => "file",
 		"AREA_FILE_SUFFIX" => "inc",
