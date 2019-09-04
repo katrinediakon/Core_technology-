@@ -33,8 +33,10 @@
 </div>
 <!-- /side anonse -->
 <!-- side wrap -->
+
+
 <div class="side-wrap">
-    <div class="item-wrap">
+
         <!-- side action -->
 				<?$APPLICATION->IncludeComponent(
 					"bitrix:news.list",
@@ -105,7 +107,7 @@
 					false
 				);?>
         <!-- /side action -->
-    </div>
+
 
    <!-- footer rew slider box -->
    <div class="item-wrap">

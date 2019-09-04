@@ -6,7 +6,10 @@ IncludeTemplateLangFile(__FILE__);
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?=LANGUAGE_ID?>" lang="ru">
 <head>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<?$APPLICATION->ShowHead();?>
+
+
+
+
 
 <link rel="stylesheet" href="<?=SITE_TEMPLATE_PATH?>/css/reset.css" />
 <link rel="stylesheet" href="<?=SITE_TEMPLATE_PATH?>/css/style.css" />
@@ -14,9 +17,12 @@ IncludeTemplateLangFile(__FILE__);
 <script src="<?=SITE_TEMPLATE_PATH?>/js/jquery.min.js"></script>
 <script src="<?=SITE_TEMPLATE_PATH?>/js/owl.carousel.min.js"></script>
 <script src="<?=SITE_TEMPLATE_PATH?>/js/scripts.js"></script>
-<script src="<?=SITE_TEMPLATE_PATH?>/js/js/jquery-1.8.2.min.js"></script>
-<script src="<?=SITE_TEMPLATE_PATH?>/js/slides.min.jquery.js"></script>
+<!--<script src="<?=SITE_TEMPLATE_PATH?>/js/jquery-1.8.2.min.js"></script>
+<script src="<?=SITE_TEMPLATE_PATH?>/js/slides.min.jquery.js"></script>-->
+<?$APPLICATION->ShowHead();?>
+<?global $APPLICATION;?>
 
+<?$APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH.'/js/slides.min.jquery.js');?>
 	<title><?$APPLICATION->ShowTitle()?></title>
 <body>
     <!-- wrap -->
