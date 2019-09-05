@@ -5,8 +5,8 @@ $DBType = "mysql";
 $DBHost = "localhost";
 $DBLogin = "root";
 $DBPassword = "123";
-$DBName = "TEST4";
-$DBDebug = false;
+$DBName = "TEST6";
+$DBDebug = true;
 $DBDebugToFile = false;
 
 define("DELAY_DB_CONNECT", true);
