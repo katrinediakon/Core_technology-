@@ -90,6 +90,7 @@ if (0 < $arResult["SECTIONS_COUNT"])
 					);
 				?><li id="<? echo $this->GetEditAreaId($arSection['ID']); ?>">
 				<a
+				ывфывфыв
 					href="<? echo $arSection['SECTION_PAGE_URL']; ?>"
 					class="bx_catalog_line_img"
 					style="background-image: url('<? echo $arSection['PICTURE']['SRC']; ?>');"
@@ -121,7 +122,7 @@ if (0 < $arResult["SECTIONS_COUNT"])
 				{
 					?> <span>(<? echo $arSection['ELEMENT_CNT']; ?>)</span><?
 				}
-				?></h2></li><?
+				?>fsdfsdf</h2></li><?
 			}
 			unset($arSection);
 			break;

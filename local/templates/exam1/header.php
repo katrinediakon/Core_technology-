@@ -111,6 +111,7 @@ IncludeTemplateLangFile(__FILE__);
                 <div class="content">
                     <div class="cnt">
                       <?if($adr!="/"):?>
+											<?=$APPLICATION->ShowViewContent('news_detail_date');?>
                           			<h1 id="pagetitle"><?$APPLICATION->ShowTitle(false);?></h1>
                                 <?endif?>
 <?if($adr=="/"):?>
