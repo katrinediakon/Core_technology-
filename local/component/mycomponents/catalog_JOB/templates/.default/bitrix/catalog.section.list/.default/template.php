@@ -12,6 +12,14 @@
 /** @var CBitrixComponent $component */
 $this->setFrameMode(true);
 
+$arSelect = Array("ID", "NAME", "DATE_ACTIVE_FROM");
+$arFilter = Array("IBLOCK_ID"=>IntVal($yvalue), "ACTIVE_DATE"=>"Y", "ACTIVE"=>"Y");
+$res = CIBlockElement::GetList(Array(), $arFilter, false, Array("nPageSize"=>50), $arSelect);
+while($ob = $res->GetNextElement())
+{
+ $arFields = $ob->GetFields();
+ print_r($arFields);
+}
 $arViewModeList = $arResult['VIEW_MODE_LIST'];
 
 $arViewStyles = array(
