@@ -8,12 +8,20 @@ $arUrlRewrite=array (
     'PATH' => '/services/index.php',
     'SORT' => 100,
   ),
-  5 => 
+  7 => 
   array (
     'CONDITION' => '#^/products/#',
     'RULE' => '',
     'ID' => 'bitrix:catalog',
     'PATH' => '/products/index.php',
+    'SORT' => 100,
+  ),
+  8 => 
+  array (
+    'CONDITION' => '#^/company/#',
+    'RULE' => '',
+    'ID' => 'mycomponents:catalog_JOB',
+    'PATH' => '/company/vacancies.php',
     'SORT' => 100,
   ),
   4 => 

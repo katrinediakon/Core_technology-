@@ -151,6 +151,7 @@ $APPLICATION->SetTitle("Вакансии");
 		"LIST_SLIDER_PROGRESS" => "N",
 		"SEF_FOLDER" => "",
 		"LABEL_PROP_MOBILE" => array(
+			0 => "EDUCATION",
 		),
 		"LABEL_PROP_POSITION" => "top-right",
 		"TOP_ROTATE_TIMER" => "30",
