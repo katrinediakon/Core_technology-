@@ -37,7 +37,8 @@ $arDefaultUrlTemplates404 = array(
 	"section" => "#SECTION_ID#/",
 	"element" => "#SECTION_ID#/#ELEMENT_ID#/",
 	"compare" => "compare.php?action=COMPARE",
-	"smart_filter" => $smartBase."filter/#SMART_FILTER_PATH#/apply/"
+	"smart_filter" => $smartBase."filter/#SMART_FILTER_PATH#/apply/",
+	"resume" => "/resume/"
 );
 
 $arDefaultVariableAliases404 = array();
@@ -162,6 +163,7 @@ else
 			"section" => $currentPage.$arVariableAliases["SECTION_ID"]."=#SECTION_ID#",
 			"element" => $currentPage.$arVariableAliases["SECTION_ID"]."=#SECTION_ID#"."&".$arVariableAliases["ELEMENT_ID"]."=#ELEMENT_ID#",
 			"compare" => $currentPage."action=COMPARE",
+			"resume"=>$currentPage."action=resume"
 		),
 		"VARIABLES" => $arVariables,
 		"ALIASES" => $arVariableAliases

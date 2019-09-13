@@ -110,7 +110,7 @@ $APPLICATION->SetTitle("Вакансии");
 		"SECTION_COUNT_ELEMENTS" => "Y",
 		"SECTION_ID_VARIABLE" => "SECTION_ID",
 		"SECTION_TOP_DEPTH" => "2",
-		"SEF_MODE" => "Y",
+		"SEF_MODE" => "N",
 		"SET_LAST_MODIFIED" => "N",
 		"SET_STATUS_404" => "N",
 		"SET_TITLE" => "Y",
@@ -154,17 +154,9 @@ $APPLICATION->SetTitle("Вакансии");
 		),
 		"LABEL_PROP_POSITION" => "top-right",
 		"SEF_FOLDER" => "/company/",
-		"SEF_URL_TEMPLATES" => array(
-			"sections" => "",
-			"section" => "#SECTION_ID#/",
-			"element" => "#SECTION_ID#/#ELEMENT_ID#/",
-			"compare" => "compare.php?action=#ACTION_CODE#",
-			"smart_filter" => "#SECTION_ID#/filter/#SMART_FILTER_PATH#/apply/",
-		),
 		"VARIABLE_ALIASES" => array(
-			"compare" => array(
-				"ACTION_CODE" => "action",
-			),
+			"ELEMENT_ID" => "ELEMENT_ID",
+			"SECTION_ID" => "SECTION_ID",
 		)
 	),
 	false
