@@ -3,10 +3,6 @@
 
  if(!CModule::IncludeModule("iblock"))
 
-return;
-
-$res = CIBlockElement::GetByID($_GET["ID"]);
-if($ar_res = $res->GetNext())
-
+print_r($arParams);
 
  ?>

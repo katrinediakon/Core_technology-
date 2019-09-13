@@ -1,5 +1,13 @@
 <?php
 $arUrlRewrite=array (
+  8 => 
+  array (
+    'CONDITION' => '#^/company/vacancies/#',
+    'RULE' => '',
+    'ID' => 'mycomponents:catalog_JOB',
+    'PATH' => '/company/vacancies.php',
+    'SORT' => 100,
+  ),
   0 => 
   array (
     'CONDITION' => '#^/services/#',

@@ -1,14 +1,12 @@
 <?
 if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
 
-if(!CModule::IncludeModule("iblock"))
+CModule::IncludeModule("iblock");
 
-return;
-
-$res = CIBlockElement::GetByID($_GET["ID"]);
+$res = CIBlockElement::GetByID($arParams["~~RESULT_ID"]);
 if($ar_res = $res->GetNext())
 
- $arResult["QUESTIONS"]['new_field_43475']['HTML_CODE']= '<input type="text"  class="inputtext" readonly name="form_text_8" value="'.$_GET['ID'].'-'.$ar_res['NAME'].'" size="0" />';
+ $arResult["QUESTIONS"]['new_field_43475']['HTML_CODE']= '<input type="text"  class="inputtext" readonly name="form_text_8" value="'.$arParams["~~RESULT_ID"].'-'.$ar_res['NAME'].'" size="0" />';
  $arResult["QUESTIONS"]['new_field_43475']['STRUCTURE'][0]['VALUE']="awesf";
 
  ?><?
