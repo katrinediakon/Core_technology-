@@ -62,6 +62,13 @@ $aMenuLinks = Array(
 		Array(), 
 		Array(), 
 		"" 
+	),
+	Array(
+		"Партнерам", 
+		"/partnery/index.php", 
+		Array(), 
+		Array(), 
+		"" 
 	)
 );
 ?>

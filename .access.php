@@ -1,4 +1,8 @@
 <?
+$PERM["partnery"]["G6"]="X";
+$PERM["partnery"]["*"]="D";
+$PERM["partneram"]["2"]="D";
+$PERM["partneram"]["6"]="X";
 $PERM["rew"]["G6"]="X";
 $PERM["ask"]["6"]="X";
 $PERM["search"]["5"]="W";
